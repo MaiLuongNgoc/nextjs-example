@@ -1,0 +1,19 @@
+@import "../styles/var.scss";
+
+.container {
+    width: 100%;
+    height: calc(100vh - 150px);
+    min-height: calc(100vh - 150px);
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+        font-size: 70px;
+        letter-spacing: 14px;
+        color: #0070f3;
+    }
+
+    .btnBack {
+        @extend .btnBack;
+    }
+}
